@@ -31,7 +31,8 @@
   "exclude": [
     "node_modules",
     "**/*.test.ts",
-    "coverage"
+    "coverage",
+    "src"
   ],
   "include": [
     "src"
