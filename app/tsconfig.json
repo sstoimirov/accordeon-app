@@ -43,7 +43,6 @@
     "acceptance-tests",
     "webpack",
     "jest",
-    "src"
   ],
   "include": [
     "src"
