@@ -1,0 +1,81 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 12px;
+  max-width: 1280px;
+  min-width: 800px;
+  font-family: Tahoma, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+.accordeon-wrapp {
+  padding: 10px;
+  flex: 0 0 30%;
+  color: #fff;
+  background-color: #a3a3a3;
+}
+
+.accordeon-wrapp--inner {
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #515151;
+}
+
+.accordeon-elements-holder {
+  cursor: pointer;
+  background-color: #000;
+}
+
+.accordeon-element-header {
+  padding: 12px;
+  border-bottom: 1px solid #515151;
+}
+
+.accordeon-text-holder {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+}
+
+.accordeon-text-holder.active {
+  max-height: 300px;
+  padding: 10px 0;
+  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+}
+
+.accordeon-text {
+  margin-top: 10px;
+}
+
+.footer-container {
+  display: flex;
+  margin-top: 10px;
+  padding: 16px 19px;
+  color: #515151;
+  background-color: #ccc;
+}
+
+.footer-links-elements {
+  display: flex;
+  margin-left: auto;
+}
+.footer-links-elements > div {
+  margin-left: 17px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-links-elements > div:first-child {
+  margin-left: 0;
+}
+
+.todos-wrapper,
+.user-wrapper {
+  display: flex;
+}
+
+.user-wrapper-name {
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=index.css.map */

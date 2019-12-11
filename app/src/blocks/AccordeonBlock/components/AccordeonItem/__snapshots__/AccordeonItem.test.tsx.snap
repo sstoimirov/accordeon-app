@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordeonItem Renders correclty with provided props and isOpened set to false 1`] = `ShallowWrapper {}`;
+
+exports[`AccordeonItem Renders correclty with provided props and isOpened set to true 1`] = `ShallowWrapper {}`;

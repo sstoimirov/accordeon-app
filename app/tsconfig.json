@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noResolve": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "jsx": "react",
+    "allowJs": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["jest"],
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "coverage"
+  ],
+  "include": [
+    "src"
+  ],
+  "types": ["jest"],
+  "typeRoots": ["./src/types", "node_modules/@types"]
+}
