@@ -25,6 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:prod": "cd src && tsc",
     "test": "jest --config jest.config.js --runInBand",
     "test:coverage": "jest --config jest.config.js --coverage --runInBand",
     "eject": "react-scripts eject"

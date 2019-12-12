@@ -4,10 +4,9 @@ module.exports = {
     "globals": {
         "ts-jest": {
             "tsConfig": "tsconfig-testing.json",
-            "diagnostics":false
+            diagnostics: false
         }
     },
-    roots: ['<rootDir>/src'],
     "rootDir": path.resolve(process.cwd()),
     "verbose": false,
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",

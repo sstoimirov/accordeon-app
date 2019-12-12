@@ -1,40 +1,31 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "build/dist",
     "module": "esnext",
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "noResolve": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "jsx": "react",
+    "allowJs": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+
     "target": "es5",
     "lib": [
       "es6",
       "dom"
     ],
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "react",
     "moduleResolution": "node",
     "rootDir": "src",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
+  
     "noUnusedLocals": true,
-    "skipLibCheck": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
-    "declaration": false,
-    "removeComments": true,
-    "noResolve": false,
-    "noLib": false,
     "types": ["jest"],
-    "typeRoots": ["./types", "./node_modules/@types"]
   },
   "exclude": [
     "node_modules",
@@ -43,10 +34,7 @@
     "acceptance-tests",
     "webpack",
     "jest",
-  ],
-  "include": [
-    "src"
-  ],
-  "types": ["jest"],
-  "typeRoots": ["./src/types", "node_modules/@types"]
+    "**/*.test.ts",
+    "**/*test.tsx"
+  ]
 }
