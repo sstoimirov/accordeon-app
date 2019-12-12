@@ -3,7 +3,8 @@ const path = require("path");
 module.exports = {
     "globals": {
         "ts-jest": {
-            "tsConfig": "tsconfig-testing.json"
+            "tsConfig": "tsconfig-testing.json",
+            "diagnostics":false
         }
     },
     roots: ['<rootDir>/src'],

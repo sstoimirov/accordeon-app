@@ -12,9 +12,19 @@ describe("TableReactState", () => {
 
     });
 
-    it("AccordeonItems does not trigger update if no id exist", () => {
+    it("AccordeonItems does not change isOpened property if no id exist", () => {
         const state = new AccordeonState();
-        state.clickItem("item_10");
-        expect(state.clickItem("item_10")).toBe(undefined);
+        state.accordeonContent = [{
+            id: "item_0",
+            title: {
+                opened: "Close",
+                closed: "Open"
+            },
+            isOpened: false,
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            onClick: () => { }
+        },]
+        state.clickItem("item_0");
+        expect(state.clickItem("item_1")).toBe(undefined);
     })
 })
