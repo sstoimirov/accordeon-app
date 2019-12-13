@@ -13,7 +13,7 @@
     "allowJs": true,
     "typeRoots": ["./types", "./node_modules/@types"],
 
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "es6",
       "dom"
@@ -27,6 +27,9 @@
     "noEmit": true,
     "types": ["jest"],
   },
+  "include": [
+    "src/**/*"
+],
   "exclude": [
     "node_modules",
     "build",
