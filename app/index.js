@@ -1,2 +1,2 @@
-// const exp = require("./lib/index.js")
-// module.exports = exp;
+const exp = require("./lib/index.js")
+module.exports = exp;

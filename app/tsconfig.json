@@ -24,19 +24,13 @@
     "noUnusedLocals": true,
     "esModuleInterop": true,
     "strict": true,
-    "noEmit": true,
     "types": ["jest"],
   },
   "include": [
-    "src/**/*"
-],
+        "src/**/*"
+    ],
   "exclude": [
     "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
     "**/*.test.ts",
     "**/*test.tsx"
   ]
