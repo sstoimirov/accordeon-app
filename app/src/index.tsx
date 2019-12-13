@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Block } from "./blocks/AccordeonBlock/components"
+import { AccordeonBlock } from "./blocks/AccordeonBlock/components"
 
 ReactDOM.render(
-    <Block />, document.getElementById('root')
+    <AccordeonBlock />, document.getElementById('root')
 );

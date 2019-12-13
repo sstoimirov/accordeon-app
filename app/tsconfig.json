@@ -11,8 +11,10 @@
     "noLib": false,
     "jsx": "react",
     "allowJs": true,
-    "typeRoots": ["./types", "./node_modules/@types"],
-
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ],
     "target": "es6",
     "lib": [
       "es6",
@@ -20,15 +22,20 @@
     ],
     "moduleResolution": "node",
     "rootDir": "src",
-  
     "noUnusedLocals": true,
     "esModuleInterop": true,
     "strict": true,
-    "types": ["jest"],
+    "types": [
+      "jest"
+    ],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "include": [
-        "src/**/*"
-    ],
+    "src/**/*"
+  ],
   "exclude": [
     "node_modules",
     "**/*.test.ts",

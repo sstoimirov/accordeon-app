@@ -5,7 +5,7 @@ import { Accordeon } from "../Accordeon";
 import { AccordeonState } from "../../state";
 
 @observer
-export class Block extends React.PureComponent<{}, {}>{
+export class AccordeonBlock extends React.PureComponent<{}, {}>{
     accordeonState: AccordeonState;
     constructor(props: any) {
         super(props)

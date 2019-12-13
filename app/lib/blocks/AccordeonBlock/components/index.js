@@ -5,5 +5,5 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./Accordeon"));
 __export(require("./AccordeonItem"));
-__export(require("./Block"));
+__export(require("./AccordeonBlock"));
 //# sourceMappingURL=index.js.map

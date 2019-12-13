@@ -10,5 +10,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __importStar(require("react"));
 const ReactDOM = __importStar(require("react-dom"));
 const components_1 = require("./blocks/AccordeonBlock/components");
-ReactDOM.render(React.createElement(components_1.Block, null), document.getElementById('root'));
+ReactDOM.render(React.createElement(components_1.AccordeonBlock, null), document.getElementById('root'));
 //# sourceMappingURL=index.js.map

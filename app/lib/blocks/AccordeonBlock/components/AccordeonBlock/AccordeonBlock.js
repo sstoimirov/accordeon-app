@@ -17,7 +17,7 @@ const React = __importStar(require("react"));
 const mobx_react_1 = require("mobx-react");
 const Accordeon_1 = require("../Accordeon");
 const state_1 = require("../../state");
-let Block = class Block extends React.PureComponent {
+let AccordeonBlock = class AccordeonBlock extends React.PureComponent {
     constructor(props) {
         super(props);
         this.accordeonState = new state_1.AccordeonState();
@@ -26,8 +26,8 @@ let Block = class Block extends React.PureComponent {
         return (React.createElement(Accordeon_1.Accordeon, { items: this.accordeonState.accordeonContent, onClick: this.accordeonState.clickItem }));
     }
 };
-Block = __decorate([
+AccordeonBlock = __decorate([
     mobx_react_1.observer
-], Block);
-exports.Block = Block;
-//# sourceMappingURL=Block.js.map
+], AccordeonBlock);
+exports.AccordeonBlock = AccordeonBlock;
+//# sourceMappingURL=AccordeonBlock.js.map
