@@ -1,3 +1,5 @@
+@import "../variables/variables.scss";
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -5,32 +7,32 @@ body {
     max-width: 1280px;
     min-width: 800px;
     font-family: Tahoma, Helvetica, sans-serif;
-    background-color: #fff;
+    background-color: $background-color__body;
 }
 
 //accordeon
 .accordeon-wrapp {
     padding: 10px;
     flex: 0 0 30%;
-    color: #fff;
-    background-color: #a3a3a3;
+    color: $color__accordeon-wrapp;
+    background-color: $background-color__accordeon-wrapp;
 }
 
 .accordeon-wrapp--inner {
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #515151;
+    background-color: $background-color__accordeon-wrapp--inner;
 }
 
 .accordeon-elements-holder {
     cursor: pointer;
-    background-color: #000;
+    background-color: $background-color__accordeon-elements-holder;
 }
 
 .accordeon-element-header {
     padding: 12px;
-    border-bottom: 1px solid #515151;
+    border-bottom: $border-bottom__accordeon-element-header;
 }
 
 .accordeon-text-holder {
@@ -44,16 +46,18 @@ body {
     padding: 10px 0;
     transition: max-height .4s ease-out, padding .4s ease-out;
 }
+
 .accordeon-text {
     margin-top: 10px;
 }
+
 //footer
 .footer-container {
     display: flex;
     margin-top: 10px;
     padding: 16px 19px;
-    color: #515151;
-    background-color: #ccc;
+    color: $color__footer-container;
+    background-color: $background-color__footer-container;
 }
 
 .footer-links-elements {
