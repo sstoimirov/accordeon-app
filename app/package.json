@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
-    "@types/jest": "^24.0.23",
+    "@types/jest": "^24.9.1",
     "@types/node": "^12.12.17",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
@@ -29,7 +29,7 @@
     "test": "jest --config jest.config.js --runInBand",
     "test:coverage": "jest --config jest.config.js --coverage --runInBand",
     "eject": "react-scripts eject",
-    "transpile":"cd src && tsc -m CommonJS"
+    "transpile": "cd src && tsc -m CommonJS"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
   }
 }

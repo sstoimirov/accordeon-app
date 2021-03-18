@@ -9,6 +9,7 @@ configure({ adapter: new Adapter() })
 describe("Block",()=>{
     it("Renders correctly", ()=>{
         const comp = shallow(<AccordeonBlock />);
+        expect(comp).toHaveLength(1)
         expect(comp).toMatchSnapshot();
     })
 })
