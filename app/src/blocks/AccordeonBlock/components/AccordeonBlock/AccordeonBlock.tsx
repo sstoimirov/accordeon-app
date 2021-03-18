@@ -7,11 +7,9 @@ import { AccordeonState } from "../../state";
 @observer
 export class AccordeonBlock extends React.PureComponent<{}, {}>{
     accordeonState: AccordeonState;
-    newThink: string;
     constructor(props: any) {
         super(props)
         this.accordeonState = new AccordeonState();
-        this.newThink = ''
     }
 
     render() {
